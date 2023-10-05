@@ -11,9 +11,9 @@ function getLastItemFrom(arr){
 }
 
 function getIndex3(arr){
-  if (arr.length >=3){
+  if (arr.length >=4){
     return (arr[3])
-  } else if ((arr[3]) === undefined){
+  } else {
     return (arr[(arr.length-1)])
   }
 }
