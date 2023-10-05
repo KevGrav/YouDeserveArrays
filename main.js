@@ -28,7 +28,7 @@ function isLongList(arr){
 
 function firstItemIsNumber(arr){
   const Num1 = (arr[0]); 
-  if (!isNaN(Num1)){
+  if (typeof Num1 === "number"){
     return true
   }else {
     return false
@@ -36,9 +36,11 @@ function firstItemIsNumber(arr){
 }
 
 function secondCharOfThirdString(arr){
-  return (arr[2][1])
+  const Num2 = (arr[2]); 
+  if (typeof Num2 === "string"){
+    return (arr[2][1])
 }
-
+}
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
